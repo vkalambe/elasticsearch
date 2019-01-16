@@ -1,0 +1,61 @@
+[2019-01-11T18:17:26,214][INFO ][o.e.e.NodeEnvironment    ] [8NJwAjC] using [1] data paths, mounts [[(C:)]], net usable_space [139gb], net total_space [199.4gb], types [NTFS]
+[2019-01-11T18:17:26,229][INFO ][o.e.e.NodeEnvironment    ] [8NJwAjC] heap size [990.7mb], compressed ordinary object pointers [true]
+[2019-01-11T18:17:26,229][INFO ][o.e.n.Node               ] [8NJwAjC] node name derived from node ID [8NJwAjCBT4GJUpt_Pqi1mw]; set [node.name] to override
+[2019-01-11T18:17:26,229][INFO ][o.e.n.Node               ] [8NJwAjC] version[6.5.4], pid[9768], build[default/zip/d2ef93d/2018-12-17T21:17:40.758843Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2019-01-11T18:17:26,229][INFO ][o.e.n.Node               ] [8NJwAjC] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\Vishal\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=C:\Users\Vishal\Downloads\elasticsearch-6.5.4 (5)\elasticsearch-6.5.4, -Des.path.conf=C:\Users\Vishal\Downloads\elasticsearch-6.5.4 (5)\elasticsearch-6.5.4\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-01-11T18:17:33,885][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [aggs-matrix-stats]
+[2019-01-11T18:17:33,885][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [analysis-common]
+[2019-01-11T18:17:33,885][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [ingest-common]
+[2019-01-11T18:17:33,886][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [lang-expression]
+[2019-01-11T18:17:33,886][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [lang-mustache]
+[2019-01-11T18:17:33,886][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [lang-painless]
+[2019-01-11T18:17:33,886][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [mapper-extras]
+[2019-01-11T18:17:33,886][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [parent-join]
+[2019-01-11T18:17:33,887][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [percolator]
+[2019-01-11T18:17:33,888][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [rank-eval]
+[2019-01-11T18:17:33,888][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [reindex]
+[2019-01-11T18:17:33,888][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [repository-url]
+[2019-01-11T18:17:33,889][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [transport-netty4]
+[2019-01-11T18:17:33,889][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [tribe]
+[2019-01-11T18:17:33,890][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-ccr]
+[2019-01-11T18:17:33,891][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-core]
+[2019-01-11T18:17:33,891][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-deprecation]
+[2019-01-11T18:17:33,892][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-graph]
+[2019-01-11T18:17:33,892][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-logstash]
+[2019-01-11T18:17:33,893][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-ml]
+[2019-01-11T18:17:33,893][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-monitoring]
+[2019-01-11T18:17:33,894][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-rollup]
+[2019-01-11T18:17:33,899][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-security]
+[2019-01-11T18:17:33,900][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-sql]
+[2019-01-11T18:17:33,900][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-upgrade]
+[2019-01-11T18:17:33,901][INFO ][o.e.p.PluginsService     ] [8NJwAjC] loaded module [x-pack-watcher]
+[2019-01-11T18:17:33,902][INFO ][o.e.p.PluginsService     ] [8NJwAjC] no plugins loaded
+[2019-01-11T18:17:41,398][INFO ][o.e.x.s.a.s.FileRolesStore] [8NJwAjC] parsed [0] roles from file [C:\Users\Vishal\Downloads\elasticsearch-6.5.4 (5)\elasticsearch-6.5.4\config\roles.yml]
+[2019-01-11T18:17:42,969][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [8NJwAjC] [controller/10048] [Main.cc@109] controller (64 bit): Version 6.5.4 (Build b616085ef32393) Copyright (c) 2018 Elasticsearch BV
+[2019-01-11T18:17:44,270][DEBUG][o.e.a.ActionModule       ] [8NJwAjC] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-01-11T18:17:44,782][INFO ][o.e.d.DiscoveryModule    ] [8NJwAjC] using discovery type [zen] and host providers [settings]
+[2019-01-11T18:17:46,412][INFO ][o.e.n.Node               ] [8NJwAjC] initialized
+[2019-01-11T18:17:46,412][INFO ][o.e.n.Node               ] [8NJwAjC] starting ...
+[2019-01-11T18:17:47,723][INFO ][o.e.t.TransportService   ] [8NJwAjC] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-01-11T18:17:50,849][INFO ][o.e.c.s.MasterService    ] [8NJwAjC] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {8NJwAjC}{8NJwAjCBT4GJUpt_Pqi1mw}{FOuLG08FQAmEklqdUbRbFw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8253411328, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-01-11T18:17:50,856][INFO ][o.e.c.s.ClusterApplierService] [8NJwAjC] new_master {8NJwAjC}{8NJwAjCBT4GJUpt_Pqi1mw}{FOuLG08FQAmEklqdUbRbFw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8253411328, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {8NJwAjC}{8NJwAjCBT4GJUpt_Pqi1mw}{FOuLG08FQAmEklqdUbRbFw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8253411328, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-01-11T18:17:50,992][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [8NJwAjC] Failed to clear cache for realms [[]]
+[2019-01-11T18:17:51,119][INFO ][o.e.g.GatewayService     ] [8NJwAjC] recovered [0] indices into cluster_state
+[2019-01-11T18:17:51,366][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.triggered_watches] for index patterns [.triggered_watches*]
+[2019-01-11T18:17:51,528][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.watches] for index patterns [.watches*]
+[2019-01-11T18:17:51,701][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.watch-history-9] for index patterns [.watcher-history-9*]
+[2019-01-11T18:17:51,812][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.monitoring-logstash] for index patterns [.monitoring-logstash-6-*]
+[2019-01-11T18:17:51,832][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [8NJwAjC] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-01-11T18:17:51,832][INFO ][o.e.n.Node               ] [8NJwAjC] started
+[2019-01-11T18:17:51,963][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.monitoring-es] for index patterns [.monitoring-es-6-*]
+[2019-01-11T18:17:52,122][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.monitoring-beats] for index patterns [.monitoring-beats-6-*]
+[2019-01-11T18:17:52,303][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.monitoring-alerts] for index patterns [.monitoring-alerts-6]
+[2019-01-11T18:17:52,405][INFO ][o.e.c.m.MetaDataIndexTemplateService] [8NJwAjC] adding template [.monitoring-kibana] for index patterns [.monitoring-kibana-6-*]
+[2019-01-11T18:17:52,759][INFO ][o.e.l.LicenseService     ] [8NJwAjC] license [f371c004-800b-4eb6-8f05-f5f66d64bd95] mode [basic] - valid
+[2019-01-11T18:26:36,995][INFO ][o.e.n.Node               ] [8NJwAjC] stopping ...
+[2019-01-11T18:26:37,010][INFO ][o.e.x.w.WatcherService   ] [8NJwAjC] stopping watch service, reason [shutdown initiated]
+[2019-01-11T18:26:37,458][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [8NJwAjC] [controller/10048] [Main.cc@148] Ml controller exiting
+[2019-01-11T18:26:37,458][INFO ][o.e.x.m.j.p.NativeController] [8NJwAjC] Native controller process has stopped - no new native processes can be started
+[2019-01-11T18:26:37,496][INFO ][o.e.n.Node               ] [8NJwAjC] stopped
+[2019-01-11T18:26:37,496][INFO ][o.e.n.Node               ] [8NJwAjC] closing ...
+[2019-01-11T18:26:37,512][INFO ][o.e.n.Node               ] [8NJwAjC] closed
